@@ -1,0 +1,8 @@
+#main{
+    background-image: url(../img/testimonials-bg.jpg);
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

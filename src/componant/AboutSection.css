@@ -1,0 +1,108 @@
+#about {
+    padding: 60px 60px;
+    overflow: hidden;
+}
+.container{
+    max-width: 1200px;
+}
+
+/* #row { */
+    /* --bs-gutter-x: 1.5rem; */
+    /* --bs-gutter-y: 0; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* margin-top: calc(-1* var(--bs-gutter-y)); */
+    /* margin-right: calc(-.5* var(--bs-gutter-x)); */
+    /* margin-left: calc(-.5* var(--bs-gutter-x)); */
+/* } */
+
+img{
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 500px;
+    width: 650px;
+    margin: 10px;    
+}
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding: 0 0 8px 26px;
+    position: relative;
+}
+
+.about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: #ffc451;
+}
+
+#About-css #title{
+    font-size: 25px;
+}
+#About-css #para{
+    font-size: 13px;
+    color: gray;
+}
+#About-css #title:hover{
+    color: #f3c849;
+}
+#About-css #para:hover{
+    color: black;
+}
+#About-css #head {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #About-css #head::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+  }
+
+  #About-css #head2{
+        margin: 0;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #151515;
+        padding-bottom: 30px;
+      }
+  
+
+
+

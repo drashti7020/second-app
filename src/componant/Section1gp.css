@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sec1 #hero{
+    background-image: url(../img/hero-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:10px 10px 15px 2000px rgba(0, 0, 0, 0.8) inset;
+}
+#sec1 #heading{
+    text-align: center;
+    color: white;
+    font-size: 68px;
+    font-weight: bold;  
+}
+#sec1 span{
+    padding: 0;
+    color: #ffc107;
+    font-size: 70px;
+}
+#sec1 h2{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+}
+#sec1 i{
+    color: #ffc107;
+    font-size: 45px;
+    font-weight: bold;
+}
+#sec1 P{
+    font-size: 25px;
+}
+#sec1 #box{
+    border: 1px solid white;
+}
+#sec1 #box:hover{
+    border: 1px solid #ffc107;
+    transition: all ease-in-out 0.5s;
+}

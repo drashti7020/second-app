@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#tab-viewer #title{
+    font-size: 25px;
+}
+#tab-viewer #para{
+    font-size: 13px;
+    color: gray;
+}
+#tab-viewer #title:hover{
+    color: #f3c849;
+}
+#tab-viewer #para:hover{
+    color: black;
+}
+#tab-viewer #head {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #tab-viewer #head::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+  }
+
+  #tab-viewer #head2{
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #151515;
+      }
+  

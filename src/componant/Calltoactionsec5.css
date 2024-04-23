@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cta{
+    background-image: url(../img/cta-bg.jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta h3{
+    color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cta p{
+    color: #fff;
+    margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.cta a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+}
+.cta a:hover{
+    transition: all ease-in-out 0.5s;
+    border-radius: 7px;
+    color: black;
+    border: 2px solid #ffc107;
+    background-color: #ffc107;
+}
